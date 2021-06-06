@@ -1,0 +1,16 @@
+    
+
+Q2
+
+
+let yearsRemaining = (age) => {
+            let yearsLeft = 90 - age;
+            let ageLeftInWeeks = yearsLeft * 52;
+            let ageLeftInDays = yearsLeft * 365;
+            let ageLeftInMonths = yearsLeft * 12;
+
+
+            console.log(`You have ${ageLeftInDays} days, ${ageLeftInWeeks} weeks and ${ageLeftInMonths} months left.`)
+        }
+        
+
